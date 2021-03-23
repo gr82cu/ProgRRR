@@ -17,6 +17,7 @@ myEnvironment
 m  <- myEnvironment
 m$abc <- LETTERS  # changing m ..
 ls(myEnvironment) #            ---> !
+names(m)
 
 ## every environment (except R_EmptyEnv) has an enclosure.
 ## Who's myEnvironment's enclosure?  find out using parent.env()
